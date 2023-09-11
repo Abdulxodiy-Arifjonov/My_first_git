@@ -1,0 +1,43 @@
+.navbar_cover{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    border: 2px solid rgb(176, 176, 176);
+}
+.navbars_cover{
+    display: flex;
+    gap: 60px;
+}
+.main_logo{
+    position: relative;
+    right: 120px;
+}
+.logo{
+    color: red;
+}
+.login{
+    width: 120px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+.login:hover{
+    opacity: 0.7;
+    scale: 1.02;
+}
+.navbar{
+    text-decoration: none;
+    color: black;
+}
+.navbar:hover{
+    color: red;
+    opacity: 0.8;
+    transition: 0.1s;
+}
